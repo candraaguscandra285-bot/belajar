@@ -1,0 +1,108 @@
+body{
+			width: 80%;
+			margin: auto;
+			margin-top: 30px;
+			background-color: yellow;
+		}
+		.header{
+			text-align: center;
+			padding: 10px;
+			color: darkorange;
+		}
+		.menu{
+			text-align: right;
+			color: darkorange;
+			padding: 10px;
+		}
+		.menu ul{
+			list-style: none;
+			margin: 0px; 
+		}
+		.menu ul li{
+			display: inline-block;
+			margin-left: 10px;
+		}
+		.menu ul li a{
+			text-decoration: none;
+			background: orange;
+			color: white;
+			padding: 8px 15px;
+			border-radius: 8px;
+		}
+		.menu ul li a:hover{
+			background: darkorange;
+		}
+		.judul img{
+			width: 200px;
+			border-radius: 50px;
+		}
+		table{
+			border-collapse: collapse;
+			background: white;
+			box-shadow: 0px 10px rgba(0, 0, 0, 0.2);
+		}
+		th, td{
+			padding: 12px;
+			text-align: center;
+		}
+		tr:nth-child(odd)
+		{
+			background: yellow;
+		}
+		tr:hover{
+			background: red;
+			transition: 0.3s;
+		}
+		form{
+			background: yellow;
+			padding: 20px;
+			margin-top: 20px;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px;
+		}
+		label{
+			display: block;
+			margin-top: 10px;
+			font-weight: bold;
+		}
+		
+		input[type="text"] {
+    		width: 100%;            
+    		box-sizing: border-box; 
+    		padding: 10px;         
+    		margin-top: 5px;
+   			border-radius: 5px;
+    		border: 1px solid #000; 
+		}
+		input[type="submit"] {
+   			 margin-top: 15px;
+   			 background: orange;     
+   			 color: white;
+   			 border: none;
+  			 padding: 10px 20px;
+    		border-radius: 5px;
+    		cursor: pointer;
+		}
+		input[type="date"] {
+    		width: 100%;            
+    		box-sizing: border-box; 
+    		padding: 10px;         
+    		margin-top: 5px;
+   			border-radius: 5px;
+    		border: 1px solid #000; 
+    	}
+    	input[type="email"] {
+    		width: 100%;            
+    		box-sizing: border-box; 
+    		padding: 10px;         
+    		margin-top: 5px;
+   			border-radius: 5px;
+    		border: 1px solid #000; 
+    	}		
+    	input[type="file"] {
+    		width: 100%;            
+    		box-sizing: border-box; 
+    		padding: 10px;         
+    		margin-top: 5px;
+   			border-radius: 5px;
+    		border: 1px solid #000;

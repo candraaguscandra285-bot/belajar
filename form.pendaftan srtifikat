@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FORM PENDAFTARAN</title>
+	<h1>FORM PENDAFTARAN</h1>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+	<div class="container">
+		<form>
+			<label>No. Pendaftaran :</label>
+			<input type="text" name="no_pendaftaran" value="REG-001" readonly>
+			<label>Nama Calon Mahasiswa :</label>
+			<input type="text" name="camaba" required>
+			<label>Jenis Kelamin :</label>
+			<input type="radio" name="jk" required>Laki-Laki
+			<input type="radio" name="jk" required>Perempuan
+			<label>Tanggal Lahir :</label>
+			<input type="date" name="tgl_lahir" disabled>
+			<label>Umur</label>
+			<input type="number" name="umur" min="18">
+			<label>Password :</label>
+			<input type="password" name="password" minlength="8">
+			<label>Hobi :</label>
+			<input type="radio" name="hobi">Membaca
+			<input type="radio" name="hobi">Menulis
+			<input type="radio" name="hobi">Mancing
+			<label>Agama :</label>
+			<select>
+				<option>Islam</option>
+				<option>Kristen</option>
+				<option>Katolik</option>
+				<option>Hindu</option>
+				<option>Konghucu</option>
+				<option>Budha</option>
+			</select>
+			<label>Alamat :</label>
+			<textarea></textarea>
+			<label>Email :</label>
+			<input type="email" name="email">
+			<label>Upload Ijazah :</label>
+			<input type="file" name="ijazah">
+			<input type="submit" name="KIRIM">
+		</form>
+	</div>
+</body>
+</html>
